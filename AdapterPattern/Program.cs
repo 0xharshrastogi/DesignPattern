@@ -1,5 +1,6 @@
 ﻿namespace AdapterPattern;
-internal class Program
+
+internal static class Program
 {
     private static void RechargeLightningPhone(ILightningPhone phone)
     {
