@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using ProxyPattern.Youtube;
+
+var youtubeLib = new YoutubeLibrary();
+IYoutubeService youtubeService = new CacheYoutubeService(youtubeLib);
+
+youtubeService.ListVideos();
