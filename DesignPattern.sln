@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "Iterator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{46093159-B08B-4E8B-9707-706E2E689C79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "MementoPattern\MementoPattern.csproj", "{43381618-0914-4D9E-ABBA-0DAEF66A2FFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{46093159-B08B-4E8B-9707-706E2E689C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46093159-B08B-4E8B-9707-706E2E689C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46093159-B08B-4E8B-9707-706E2E689C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43381618-0914-4D9E-ABBA-0DAEF66A2FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43381618-0914-4D9E-ABBA-0DAEF66A2FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43381618-0914-4D9E-ABBA-0DAEF66A2FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43381618-0914-4D9E-ABBA-0DAEF66A2FFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
